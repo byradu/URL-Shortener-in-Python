@@ -1,3 +1,5 @@
+import urllib.request
+import pyshorteners as shortener
 from url_shortener import app
 from flask import render_template,request,flash
 
@@ -15,7 +17,6 @@ def index():
     return render_template('index.html',data='')
 
 def checkUrl(link):
-    import urllib.request
     statusCode = urllib.request.urlopen(link).getcode()
     print(statusCode)
     if statusCode == 200:
@@ -23,6 +24,5 @@ def checkUrl(link):
     return False
 
 def makeItShort(link):
-    import pyshorteners as shortener
     sh = shortener.Shortener()
     return sh.tinyurl.short(link)
