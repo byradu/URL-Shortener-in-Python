@@ -21,4 +21,4 @@ So I decided to build something like this for everyday use.
 4. python3 run.py
 
 # NOTES
-If you want to use this please quote me or this repository.
+**If you want to use this project please quote me or this repository.**
