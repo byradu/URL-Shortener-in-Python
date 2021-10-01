@@ -15,7 +15,7 @@ So I decided to build something like this for everyday use.
 ![Demo gif](https://media.giphy.com/media/8WHJ3Dq9eWYXYyEGu7/giphy.gif)
 
 ## How to use?
-- Clone the git.
+- Clone the repository.
 - Open the directory and make a new environment
 - Install thee module from requierments.txt in the new environment 
 - python3 run.py
