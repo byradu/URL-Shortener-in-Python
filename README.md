@@ -15,10 +15,10 @@ So I decided to build something like this for everyday use.
 ![Demo gif](https://media.giphy.com/media/8WHJ3Dq9eWYXYyEGu7/giphy.gif)
 
 ## How to use?
-1 Clone the repository.
-2 Open the directory and make a new environment
-3 Install thee module from requierments.txt in the new environment 
-4 python3 run.py
+1. Clone the repository.
+2. Open the directory and make a new environment
+3. Install thee module from requierments.txt in the new environment 
+4. python3 run.py
 
 # NOTES
 If you want to use this please quote me or this repository.
