@@ -19,7 +19,7 @@ def index():
     '''
     global recent_history,already_computed
     if request.method == 'POST':
-        link = request.form['linkElement']
+        link = request.form['linkElement']#get the link from the form
         
         if link in already_computed:
             return render_template('index.html',data=already_computed[link],recent_history=recent_history)
